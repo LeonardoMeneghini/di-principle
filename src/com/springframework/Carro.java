@@ -1,10 +1,9 @@
 package com.springframework;
 
-public class Carro {
+public class Carro implements Veiculo {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	@Override
+	public void acao() {
+		System.out.println("É um carro.");
 	}
-
 }
